@@ -367,6 +367,28 @@ section {
   object-fit: cover;
 }
 
+.art-card-horizontal {
+  background: var(--bg-accent);
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border: 1px solid var(--glass-border);
+  transition: var(--transition);
+}
+
+.art-card-horizontal:hover {
+  transform: translateY(-10px);
+  border-color: var(--primary);
+}
+
+.art-card-horizontal i {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-top: 0.2rem;
+}
+
 .blog-content {
   padding: 1.5rem;
 }
