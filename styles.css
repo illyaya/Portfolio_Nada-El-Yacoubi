@@ -283,7 +283,8 @@ section {
 }
 
 .project-img {
-  width: 100%;
+  width: 50%;
+  justify-self: center;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
